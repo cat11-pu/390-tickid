@@ -1,0 +1,23 @@
+{
+  "budget": 2,
+  "width": 10,
+  "machines": 4,
+  "machine": 2,
+  "seqMax": 3,
+  "segMax": 3,
+  "bad_tick_code": "E_BAD_TICK",
+  "tick_back_code": "E_TICK_BACK",
+  "seg_full_code": "E_SEG_FULL",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "ids": [], "rolls": 0, "seg": -1, "seq": -1, "tick": -1, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "take", "at": 7 },
+    { "id": 2, "kind": "take", "at": 7 },
+    { "id": 3, "kind": "take", "at": 7 },
+    { "id": 4, "kind": "take", "at": 7 },
+    { "id": 5, "kind": "take", "at": 9 },
+    { "id": 6, "kind": "take", "at": 9 },
+    { "id": 7, "kind": "take", "at": 20 },
+    { "id": 8, "kind": "take", "at": 20 }
+  ]
+}
